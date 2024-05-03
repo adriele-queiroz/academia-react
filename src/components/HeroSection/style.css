@@ -1,0 +1,46 @@
+.hero-section {
+    padding: 100px 0;
+    text-align: center;
+    }
+     
+  .hero-section p {
+    margin-bottom: 30px;
+    margin-left: 95px;
+    width: 85%;
+    color: #343a40;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5); 
+    background-color: rgba(255, 255, 255, 0.8); 
+    border-radius: 5px;
+    font-weight: bold;
+    
+  }
+  
+    .hero-section .btn {
+    background-color:  rgba(255, 255, 255, 0.8);
+    color: #343a40;
+    border: none;
+    font-weight: bold;
+    padding: 10px 20px;
+    border-radius: 5px;
+    text-decoration: none;
+    transition: background-color 0.3s, transform 0.3s; /* Adicionamos transição para a propriedade transform */
+  }
+  
+   .hero-section .btn:hover {
+    background-color: #4e4f50;
+    transform: translateY(-5px); /* Faz o botão se mover para cima quando o mouse está sobre ele */
+  }
+  
+  .hero-section {
+    padding: 100px 0;
+    text-align: center;
+    background-image: src('../images/capa.png'); 
+    background-size: cover;
+    background-position: center;
+    color: white;
+    height: 80vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  

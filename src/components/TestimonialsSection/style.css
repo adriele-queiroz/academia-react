@@ -1,0 +1,52 @@
+/* src/components/TestimonialsSection/style.css */
+#testimonials {
+  background-color: #101010;
+  padding: 100px 0;
+}
+
+#testimonials h2 {
+  color: white;
+}
+
+#carouselTestimonials {
+  margin-top: 30px;
+}
+
+.carousel-item {
+  text-align: center;
+}
+
+.card {
+  background-color: #f8f9fa;
+  border: none;
+}
+
+.card-text {
+  font-size: 1.1em;
+}
+
+.text-muted {
+  font-size: 0.9em;
+}
+
+.img-fluid {
+  width: 100px;
+  height: auto;
+  object-fit: cover;
+  border-radius: 10px;
+}
+
+.carousel-control-prev-icon,
+.carousel-control-next-icon {
+  background-color: #007bff;
+}
+
+.carousel-control-prev-icon:after,
+.carousel-control-next-icon:after {
+  color: white;
+}
+
+.carousel-control-prev,
+.carousel-control-next {
+  width: 5%;
+}

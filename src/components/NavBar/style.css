@@ -1,0 +1,28 @@
+.navbar {
+    background-color: #2a2828;
+    padding: 20px 0;
+  }
+  
+  .navbar-brand {
+    color: #fff;
+    font-size: 1.9rem;   
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5); 
+    background-color: rgba(255, 255, 255, 0.7); 
+    padding: 7px;
+    border-radius: 5px;
+  }
+  
+  .navbar-nav {
+    margin-left: auto;
+  }
+  
+  .nav-link {
+    color: #fff;
+    margin-left: 20px;
+    text-decoration: none;
+  }
+  
+  .nav-link:hover {
+    text-decoration: underline;
+  }
+  
