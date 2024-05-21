@@ -13,12 +13,18 @@
   }
   
   .navbar-nav {
+    display: flex;
     margin-left: auto;
+    list-style: none;
+    padding: 0;
+  }
+  
+  .nav-item {
+    margin-left: 20px; 
   }
   
   .nav-link {
-    color: #fff;
-    margin-left: 20px;
+    color: #fff;    
     text-decoration: none;
   }
   
